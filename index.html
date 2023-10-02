@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual Beli Buku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .book {
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .book h2 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .book p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jual Beli Buku Online</h1>
+    </header>
+    <div class="container">
+        <h2>Daftar Buku Tersedia</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="buku1.jpg" alt="Buku 1">
+                <h2>Judul Buku 1</h2>
+                <p>Penulis: Penulis 1</p>
+                <p>Harga: Rp 100.000</p>
+            </div>
+            <div class="book">
+                <img src="buku2.jpg" alt="Buku 2">
+                <h2>Judul Buku 2</h2>
+                <p>Penulis: Penulis 2</p>
+                <p>Harga: Rp 150.000</p>
+            </div>
+            <div class="book">
+                <img src="buku3.jpg" alt="Buku 3">
+                <h2>Judul Buku 3</h2>
+                <p>Penulis: Penulis 3</p>
+                <p>Harga: Rp 120.000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 
